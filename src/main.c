@@ -11,8 +11,6 @@ int setup_led(const struct gpio_dt_spec *led)
 {
         if (!device_is_ready(led->port)) return -1;  // Device not ready
         if (gpio_pin_configure_dt(led, GPIO_OUTPUT_ACTIVE) < 0) return -1;  // Configuration failed
-        if (gpio_pin_toggle_dt(led) < 0) return -1;  // Toggle failed
-
         return 0;  // Success
 }
 
