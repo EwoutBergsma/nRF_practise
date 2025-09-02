@@ -1,0 +1,13 @@
+# Target labels
+ nRF_practise
+# Source files and their labels
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/CMakeFiles/nRF_practise
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/CMakeFiles/nRF_practise.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/CMakeFiles/nRF_practise-complete.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/nRF_practise-prefix/src/nRF_practise-stamp/nRF_practise-build.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/nRF_practise-prefix/src/nRF_practise-stamp/nRF_practise-configure.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/nRF_practise-prefix/src/nRF_practise-stamp/nRF_practise-download.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/nRF_practise-prefix/src/nRF_practise-stamp/nRF_practise-install.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/nRF_practise-prefix/src/nRF_practise-stamp/nRF_practise-mkdir.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/nRF_practise-prefix/src/nRF_practise-stamp/nRF_practise-patch.rule
+C:/Repositories/nRF_practise/build/_sysbuild/sysbuild/images/nRF_practise-prefix/src/nRF_practise-stamp/nRF_practise-update.rule

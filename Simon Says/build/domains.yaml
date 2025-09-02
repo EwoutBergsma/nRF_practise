@@ -1,0 +1,7 @@
+default: nRF_practise
+build_dir: C:/Repositories/nRF_practise/build
+domains:
+  - name: nRF_practise
+    build_dir: C:/Repositories/nRF_practise/build/nRF_practise
+flash_order:
+  - nRF_practise
