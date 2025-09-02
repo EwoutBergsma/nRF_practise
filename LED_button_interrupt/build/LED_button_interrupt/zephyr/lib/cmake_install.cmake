@@ -1,8 +1,8 @@
-# Install script for directory: C:/ncs/v3.1.0/zephyr/lib
+# Install script for directory: /home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Zephyr-Kernel")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,51 +34,51 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/ncs/toolchains/b8b84efebd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/crc/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/crc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/libc/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/libc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/posix/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/posix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/hash/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/hash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/heap/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/heap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/mem_blocks/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/mem_blocks/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/os/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/os/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/utils/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/utils/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/uuid/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/lib/uuid/cmake_install.cmake")
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Repositories/nRF_practise/LED_button_interrupt
+# Install script for directory: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Zephyr-Kernel")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/ncs/toolchains/b8b84efebd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/cmake_install.cmake")
+  include("/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/zephyr/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

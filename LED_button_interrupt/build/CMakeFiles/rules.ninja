@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ncs\toolchains\b8b84efebd\opt\bin\cmake.exe --regenerate-during-build -SC:\ncs\v3.1.0\zephyr\share\sysbuild -BC:\Repositories\nRF_practise\LED_button_interrupt\build
+  command = /home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/cmake --regenerate-during-build -S/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/share/sysbuild -B/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build
   description = Re-running CMake...
   generator = 1
 
@@ -32,7 +32,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\ncs\toolchains\b8b84efebd\opt\bin\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = /home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -40,6 +40,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\ncs\toolchains\b8b84efebd\opt\bin\ninja.exe -t targets
+  command = /home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja -t targets
   description = All primary targets available:
 

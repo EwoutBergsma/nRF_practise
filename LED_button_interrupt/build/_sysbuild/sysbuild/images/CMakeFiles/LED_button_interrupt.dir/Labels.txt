@@ -1,13 +1,13 @@
 # Target labels
  LED_button_interrupt
 # Source files and their labels
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt-complete.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-build.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-configure.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-download.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-install.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-mkdir.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-patch.rule
-C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-update.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt-complete.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-build.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-configure.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-download.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-install.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-mkdir.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-patch.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-update.rule

@@ -1,7 +1,7 @@
 The target system is: Generic - 4.1.99 - arm
-The host system is: Windows - 10.0.26100 - AMD64
+The host system is: Linux - 6.14.0-27-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/ncs/toolchains/b8b84efebd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+Compiler: /home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
 Build flags: 
 Id flags: -c 
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/ncs/toolchains/b8b84efebd/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+Compiler: /home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
 Build flags: 
 Id flags: -c 
 
@@ -24,443 +24,443 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "/home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-arm-zephyr-eabi-gcc.exe (Zephyr SDK 0.17.0) 12.2.0
+arm-zephyr-eabi-gcc (Zephyr SDK 0.17.0) 12.2.0
 Copyright (C) 2022 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_0b00f && [1/2] Building C object CMakeFiles/cmTC_0b00f.dir/src.c.obj
-[2/2] Linking C executable cmTC_0b00f
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wall_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_52dbf && [1/2] Building C object CMakeFiles/cmTC_52dbf.dir/src.c.obj
-[2/2] Linking C executable cmTC_52dbf
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_6a546 && [1/2] Building C object CMakeFiles/cmTC_6a546.dir/src.c.obj
+[2/2] Linking C executable cmTC_6a546
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wall_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_5d27b && [1/2] Building C object CMakeFiles/cmTC_5d27b.dir/src.c.obj
-[2/2] Linking C executable cmTC_5d27b
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_d751b && [1/2] Building C object CMakeFiles/cmTC_d751b.dir/src.c.obj
-[2/2] Linking C executable cmTC_d751b
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_222e3 && [1/2] Building C object CMakeFiles/cmTC_222e3.dir/src.c.obj
+[2/2] Linking C executable cmTC_222e3
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_038f5 && [1/2] Building C object CMakeFiles/cmTC_038f5.dir/src.c.obj
-[2/2] Linking C executable cmTC_038f5
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_1608b && [1/2] Building C object CMakeFiles/cmTC_1608b.dir/src.c.obj
-[2/2] Linking C executable cmTC_1608b
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_d6bd0 && [1/2] Building C object CMakeFiles/cmTC_d6bd0.dir/src.c.obj
+[2/2] Linking C executable cmTC_d6bd0
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_e92f2 && [1/2] Building C object CMakeFiles/cmTC_e92f2.dir/src.c.obj
-[2/2] Linking C executable cmTC_e92f2
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_d6635 && [1/2] Building C object CMakeFiles/cmTC_d6635.dir/src.c.obj
-[2/2] Linking C executable cmTC_d6635
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_7c770 && [1/2] Building C object CMakeFiles/cmTC_7c770.dir/src.c.obj
+[2/2] Linking C executable cmTC_7c770
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_af239 && [1/2] Building C object CMakeFiles/cmTC_af239.dir/src.c.obj
-[2/2] Linking C executable cmTC_af239
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_43f5f && [1/2] Building C object CMakeFiles/cmTC_43f5f.dir/src.c.obj
-[2/2] Linking C executable cmTC_43f5f
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_6e765 && [1/2] Building C object CMakeFiles/cmTC_6e765.dir/src.c.obj
+[2/2] Linking C executable cmTC_6e765
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wpointer_sign_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_2fe78 && [1/2] Building C object CMakeFiles/cmTC_2fe78.dir/src.c.obj
-[2/2] Linking C executable cmTC_2fe78
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wvla_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_4e382 && [1/2] Building C object CMakeFiles/cmTC_4e382.dir/src.c.obj
-[2/2] Linking C executable cmTC_4e382
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_60b1b && [1/2] Building C object CMakeFiles/cmTC_60b1b.dir/src.c.obj
+[2/2] Linking C executable cmTC_60b1b
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wpointer_arith_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_6a298 && [1/2] Building C object CMakeFiles/cmTC_6a298.dir/src.c.obj
-[2/2] Linking C executable cmTC_6a298
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_e3379 && [1/2] Building C object CMakeFiles/cmTC_e3379.dir/src.c.obj
-[2/2] Linking C executable cmTC_e3379
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_e862d && [1/2] Building C object CMakeFiles/cmTC_e862d.dir/src.c.obj
+[2/2] Linking C executable cmTC_e862d
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fno_printf_return_value_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_f8b5c && [1/2] Building C object CMakeFiles/cmTC_f8b5c.dir/src.c.obj
-[2/2] Linking C executable cmTC_f8b5c
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_a3d9a && [1/2] Building C object CMakeFiles/cmTC_a3d9a.dir/src.c.obj
-[2/2] Linking C executable cmTC_a3d9a
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_49d63 && [1/2] Building C object CMakeFiles/cmTC_49d63.dir/src.c.obj
+[2/2] Linking C executable cmTC_49d63
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fsanitize_undefined_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wlogical_op_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_300db && [1/2] Building C object CMakeFiles/cmTC_300db.dir/src.c.obj
-[2/2] Linking C executable cmTC_300db
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fsanitize_undefined_trap_on_error_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_9a9f2 && [1/2] Building C object CMakeFiles/cmTC_9a9f2.dir/src.c.obj
-[2/2] Linking C executable cmTC_9a9f2
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_87624 && [1/2] Building C object CMakeFiles/cmTC_87624.dir/src.c.obj
+[2/2] Linking C executable cmTC_87624
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_78887 && [1/2] Building C object CMakeFiles/cmTC_78887.dir/src.c.obj
-[2/2] Linking C executable cmTC_78887
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_ffreestanding_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_8ab7d && [1/2] Building C object CMakeFiles/cmTC_8ab7d.dir/src.c.obj
-[2/2] Linking C executable cmTC_8ab7d
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_ea58a && [1/2] Building C object CMakeFiles/cmTC_ea58a.dir/src.c.obj
+[2/2] Linking C executable cmTC_ea58a
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_7c8a0 && [1/2] Building C object CMakeFiles/cmTC_7c8a0.dir/src.c.obj
-[2/2] Linking C executable cmTC_7c8a0
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_4e3e2 && [1/2] Building C object CMakeFiles/cmTC_4e3e2.dir/src.c.obj
-[2/2] Linking C executable cmTC_4e3e2
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_81149 && [1/2] Building C object CMakeFiles/cmTC_81149.dir/src.c.obj
+[2/2] Linking C executable cmTC_81149
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wvla_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_66df5 && [1/2] Building C object CMakeFiles/cmTC_66df5.dir/src.c.obj
-[2/2] Linking C executable cmTC_66df5
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_0df45 && [1/2] Building C object CMakeFiles/cmTC_0df45.dir/src.c.obj
-[2/2] Linking C executable cmTC_0df45
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_ce7a2 && [1/2] Building C object CMakeFiles/cmTC_ce7a2.dir/src.c.obj
+[2/2] Linking C executable cmTC_ce7a2
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_3dc32 && [1/2] Building C object CMakeFiles/cmTC_3dc32.dir/src.c.obj
-[2/2] Linking C executable cmTC_3dc32
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_40f62 && [1/2] Building C object CMakeFiles/cmTC_40f62.dir/src.c.obj
-[2/2] Linking C executable cmTC_40f62
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_3c6d6 && [1/2] Building C object CMakeFiles/cmTC_3c6d6.dir/src.c.obj
+[2/2] Linking C executable cmTC_3c6d6
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_5a31d && [1/2] Building C object CMakeFiles/cmTC_5a31d.dir/src.c.obj
-[2/2] Linking C executable cmTC_5a31d
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_78c15 && [1/2] Building C object CMakeFiles/cmTC_78c15.dir/src.c.obj
-[2/2] Linking C executable cmTC_78c15
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_cfbad && [1/2] Building C object CMakeFiles/cmTC_cfbad.dir/src.c.obj
+[2/2] Linking C executable cmTC_cfbad
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_fno_printf_return_value_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_33493 && [1/2] Building C object CMakeFiles/cmTC_33493.dir/src.c.obj
-[2/2] Linking C executable cmTC_33493
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_82788 && [1/2] Building C object CMakeFiles/cmTC_82788.dir/src.c.obj
-[2/2] Linking C executable cmTC_82788
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_2541a && [1/2] Building C object CMakeFiles/cmTC_2541a.dir/src.c.obj
+[2/2] Linking C executable cmTC_2541a
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_ac313 && [1/2] Building C object CMakeFiles/cmTC_ac313.dir/src.c.obj
-[2/2] Linking C executable cmTC_ac313
-Memory region         Used Size  Region Size  %age Used
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_7d4c1 && [1/2] Building C object CMakeFiles/cmTC_7d4c1.dir/src.c.obj
-[2/2] Linking C executable cmTC_7d4c1
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_3adb7 && [1/2] Building C object CMakeFiles/cmTC_3adb7.dir/src.c.obj
+[2/2] Linking C executable cmTC_3adb7
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined_trap_on_error succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_fsanitize_undefined_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_4e50c && [1/2] Building C object CMakeFiles/cmTC_4e50c.dir/src.c.obj
-[2/2] Linking C executable cmTC_4e50c
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_883dd && [1/2] Building C object CMakeFiles/cmTC_883dd.dir/src.c.obj
-[2/2] Linking C executable cmTC_883dd
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_ca45b && [1/2] Building C object CMakeFiles/cmTC_ca45b.dir/src.c.obj
+[2/2] Linking C executable cmTC_ca45b
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_fsanitize_undefined_trap_on_error_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_5f3ff && [1/2] Building C object CMakeFiles/cmTC_5f3ff.dir/src.c.obj
-[2/2] Linking C executable cmTC_5f3ff
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_35108 && [1/2] Building C object CMakeFiles/cmTC_35108.dir/src.c.obj
-[2/2] Linking C executable cmTC_35108
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_02308 && [1/2] Building C object CMakeFiles/cmTC_02308.dir/src.c.obj
+[2/2] Linking C executable cmTC_02308
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_fno_freestanding_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_a8b2b && [1/2] Building C object CMakeFiles/cmTC_a8b2b.dir/src.c.obj
-[2/2] Linking C executable cmTC_a8b2b
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__mcpu_cortex_m33__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_c7013 && [1/2] Building C object CMakeFiles/cmTC_c7013.dir/src.c.obj
-[2/2] Linking C executable cmTC_c7013
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_f7ee8 && [1/2] Building C object CMakeFiles/cmTC_f7ee8.dir/src.c.obj
+[2/2] Linking C executable cmTC_f7ee8
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_ffreestanding_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_63e12 && [1/2] Building C object CMakeFiles/cmTC_63e12.dir/src.c.obj
-[2/2] Linking C executable cmTC_63e12
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_fcc75 && [1/2] Building C object CMakeFiles/cmTC_fcc75.dir/src.c.obj
-[2/2] Linking C executable cmTC_fcc75
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_a8e41 && [1/2] Building C object CMakeFiles/cmTC_a8e41.dir/src.c.obj
+[2/2] Linking C executable cmTC_a8e41
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_gdwarf_4_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_2e9c7 && [1/2] Building C object CMakeFiles/cmTC_2e9c7.dir/src.c.obj
-[2/2] Linking C executable cmTC_2e9c7
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_e50be && [1/2] Building C object CMakeFiles/cmTC_e50be.dir/src.c.obj
-[2/2] Linking C executable cmTC_e50be
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_a654d && [1/2] Building C object CMakeFiles/cmTC_a654d.dir/src.c.obj
+[2/2] Linking C executable cmTC_a654d
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_3143d && [1/2] Building C object CMakeFiles/cmTC_3143d.dir/src.c.obj
-[2/2] Linking C executable cmTC_3143d
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fmacro_prefix_map_C__Repositories_nRF_practise_LED_button_interrupt_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_1e0f9 && [1/2] Building C object CMakeFiles/cmTC_1e0f9.dir/src.c.obj
-[2/2] Linking C executable cmTC_1e0f9
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_7107f && [1/2] Building C object CMakeFiles/cmTC_7107f.dir/src.c.obj
+[2/2] Linking C executable cmTC_7107f
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fmacro_prefix_map_C__ncs_v3_1_0_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_8fcb3 && [1/2] Building C object CMakeFiles/cmTC_8fcb3.dir/src.c.obj
-[2/2] Linking C executable cmTC_8fcb3
-
-
-Source file was:
-int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fmacro_prefix_map_C__ncs_v3_1_0_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
-
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_8aea4 && [1/2] Building C object CMakeFiles/cmTC_8aea4.dir/src.c.obj
-[2/2] Linking C executable cmTC_8aea4
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_ff25a && [1/2] Building C object CMakeFiles/cmTC_ff25a.dir/src.c.obj
+[2/2] Linking C executable cmTC_ff25a
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_07f0d && [1/2] Building C object CMakeFiles/cmTC_07f0d.dir/src.c.obj
-[2/2] Linking C executable cmTC_07f0d
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_062f2 && [1/2] Building C object CMakeFiles/cmTC_062f2.dir/src.c.obj
+[2/2] Linking C executable cmTC_062f2
 
 
 Source file was:
 int main(void) { return 0; }
-Performing C SOURCE FILE Test check_fdata_sections_C__nostartfiles__nostdlib__isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem__c__ncs_toolchains_b8b84efebd_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
-Change Dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/ncs/toolchains/b8b84efebd/opt/bin/ninja.exe cmTC_b2537 && [1/2] Building C object CMakeFiles/cmTC_b2537.dir/src.c.obj
-[2/2] Linking C executable cmTC_b2537
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_b9473 && [1/2] Building C object CMakeFiles/cmTC_b9473.dir/src.c.obj
+[2/2] Linking C executable cmTC_b9473
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_ab5f1 && [1/2] Building C object CMakeFiles/cmTC_ab5f1.dir/src.c.obj
+[2/2] Linking C executable cmTC_ab5f1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_30816 && [1/2] Building C object CMakeFiles/cmTC_30816.dir/src.c.obj
+[2/2] Linking C executable cmTC_30816
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_b8eb0 && [1/2] Building C object CMakeFiles/cmTC_b8eb0.dir/src.c.obj
+[2/2] Linking C executable cmTC_b8eb0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_57a09 && [1/2] Building C object CMakeFiles/cmTC_57a09.dir/src.c.obj
+[2/2] Linking C executable cmTC_57a09
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_76059 && [1/2] Building C object CMakeFiles/cmTC_76059.dir/src.c.obj
+[2/2] Linking C executable cmTC_76059
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_5bfe4 && [1/2] Building C object CMakeFiles/cmTC_5bfe4.dir/src.c.obj
+[2/2] Linking C executable cmTC_5bfe4
+Memory region         Used Size  Region Size  %age Used
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_d3526 && [1/2] Building C object CMakeFiles/cmTC_d3526.dir/src.c.obj
+[2/2] Linking C executable cmTC_d3526
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fsanitize_undefined_trap_on_error succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_b903b && [1/2] Building C object CMakeFiles/cmTC_b903b.dir/src.c.obj
+[2/2] Linking C executable cmTC_b903b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_5ab66 && [1/2] Building C object CMakeFiles/cmTC_5ab66.dir/src.c.obj
+[2/2] Linking C executable cmTC_5ab66
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_c433d && [1/2] Building C object CMakeFiles/cmTC_c433d.dir/src.c.obj
+[2/2] Linking C executable cmTC_c433d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_bd431 && [1/2] Building C object CMakeFiles/cmTC_bd431.dir/src.c.obj
+[2/2] Linking C executable cmTC_bd431
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_2c55c && [1/2] Building C object CMakeFiles/cmTC_2c55c.dir/src.c.obj
+[2/2] Linking C executable cmTC_2c55c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__mcpu_cortex_m33__mthumb__mabi_aapcs__mfp16_format_ieee__mtp_soft__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_ff1a8 && [1/2] Building C object CMakeFiles/cmTC_ff1a8.dir/src.c.obj
+[2/2] Linking C executable cmTC_ff1a8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_fed8d && [1/2] Building C object CMakeFiles/cmTC_fed8d.dir/src.c.obj
+[2/2] Linking C executable cmTC_fed8d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_82d7d && [1/2] Building C object CMakeFiles/cmTC_82d7d.dir/src.c.obj
+[2/2] Linking C executable cmTC_82d7d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_0b94c && [1/2] Building C object CMakeFiles/cmTC_0b94c.dir/src.c.obj
+[2/2] Linking C executable cmTC_0b94c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_3a791 && [1/2] Building C object CMakeFiles/cmTC_3a791.dir/src.c.obj
+[2/2] Linking C executable cmTC_3a791
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_cfc64 && [1/2] Building C object CMakeFiles/cmTC_cfc64.dir/src.c.obj
+[2/2] Linking C executable cmTC_cfc64
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_ewout_laptop_ubuntu_Repositories_nRF_practise_LED_button_interrupt_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_95786 && [1/2] Building C object CMakeFiles/cmTC_95786.dir/src.c.obj
+[2/2] Linking C executable cmTC_95786
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_ewout_laptop_ubuntu_ncs_v3_1_0_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_a952a && [1/2] Building C object CMakeFiles/cmTC_a952a.dir/src.c.obj
+[2/2] Linking C executable cmTC_a952a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__home_ewout_laptop_ubuntu_ncs_v3_1_0_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_a06e5 && [1/2] Building C object CMakeFiles/cmTC_a06e5.dir/src.c.obj
+[2/2] Linking C executable cmTC_a06e5
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_2b1b6 && [1/2] Building C object CMakeFiles/cmTC_2b1b6.dir/src.c.obj
+[2/2] Linking C executable cmTC_2b1b6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C__nostartfiles__nostdlib__isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___home_ewout_laptop_ubuntu_ncs_toolchains_c5be9c56c7_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd succeeded with the following output:
+Change Dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/usr/local/bin/ninja cmTC_9d21f && [1/2] Building C object CMakeFiles/cmTC_9d21f.dir/src.c.obj
+[2/2] Linking C executable cmTC_9d21f
 
 
 Source file was:
