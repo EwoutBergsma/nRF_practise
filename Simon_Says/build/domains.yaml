@@ -1,0 +1,7 @@
+default: Simon_Says
+build_dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build
+domains:
+  - name: Simon_Says
+    build_dir: /home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/Simon_Says
+flash_order:
+  - Simon_Says

@@ -1,0 +1,53 @@
+cmake:
+  application:
+    configuration-dir: '/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says'
+    source-dir: '/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says'
+  board:
+    name: 'nrf54l15dk'
+    path:
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/boards/nordic/nrf54l15dk'
+    qualifiers: 'nrf54l15/cpuapp'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf/dts/bindings'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/bindings'
+    files:
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/boards/nordic/nrf54l15dk/nrf54l15dk_nrf54l15_cpuapp.dts'
+    include-dirs:
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf/include'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf/dts/common'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf/dts/riscv'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf/dts/arm'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf/dts'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/include'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/include/zephyr'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/common'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/vendor'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/rx'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/x86'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/xtensa'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/sparc'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/riscv'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/posix'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/arm64'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/arm'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts/arc'
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/dts'
+  kconfig:
+    files:
+     - '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr/boards/nordic/nrf54l15dk/nrf54l15dk_nrf54l15_cpuapp_defconfig'
+     - '/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/prj.conf'
+     - '/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/Simon_Says/zephyr/.config.sysbuild'
+    user-files:
+     - '/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/ewout-laptop-ubuntu/ncs/toolchains/c5be9c56c7/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: '/home/ewout-laptop-ubuntu/ncs/v3.1.0/modules/hal/nordic/nrfx/mdk/nrf54l15_application.svd'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: '/home/ewout-laptop-ubuntu/ncs/v3.1.0/zephyr'
+version: '0.1.0'

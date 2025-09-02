@@ -1,0 +1,2 @@
+"nrf":"/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf":"/home/ewout-laptop-ubuntu/ncs/v3.1.0/nrf/sysbuild"
+"mcuboot":"/home/ewout-laptop-ubuntu/ncs/v3.1.0/bootloader/mcuboot":"/home/ewout-laptop-ubuntu/ncs/v3.1.0/bootloader/mcuboot/boot/zephyr/sysbuild"

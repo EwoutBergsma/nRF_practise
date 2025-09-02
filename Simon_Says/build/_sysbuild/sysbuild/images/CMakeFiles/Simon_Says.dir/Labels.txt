@@ -1,0 +1,13 @@
+# Target labels
+ Simon_Says
+# Source files and their labels
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/CMakeFiles/Simon_Says
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/CMakeFiles/Simon_Says.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/CMakeFiles/Simon_Says-complete.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/Simon_Says-prefix/src/Simon_Says-stamp/Simon_Says-build.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/Simon_Says-prefix/src/Simon_Says-stamp/Simon_Says-configure.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/Simon_Says-prefix/src/Simon_Says-stamp/Simon_Says-download.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/Simon_Says-prefix/src/Simon_Says-stamp/Simon_Says-install.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/Simon_Says-prefix/src/Simon_Says-stamp/Simon_Says-mkdir.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/Simon_Says-prefix/src/Simon_Says-stamp/Simon_Says-patch.rule
+/home/ewout-laptop-ubuntu/Repositories/nRF_practise/Simon_Says/build/_sysbuild/sysbuild/images/Simon_Says-prefix/src/Simon_Says-stamp/Simon_Says-update.rule
