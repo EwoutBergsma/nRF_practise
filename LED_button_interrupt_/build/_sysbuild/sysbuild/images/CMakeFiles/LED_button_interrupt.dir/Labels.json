@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/CMakeFiles/LED_button_interrupt-complete.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-build.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-configure.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-download.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-install.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-mkdir.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-patch.rule"
+		},
+		{
+			"file" : "C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/sysbuild/images/LED_button_interrupt-prefix/src/LED_button_interrupt-stamp/LED_button_interrupt-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"LED_button_interrupt"
+		],
+		"name" : "LED_button_interrupt"
+	}
+}

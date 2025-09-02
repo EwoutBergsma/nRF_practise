@@ -1,0 +1,22 @@
+cmake:
+  board:
+    name: 'nrf54l15dk'
+    path:
+     - 'C:/ncs/v3.1.0/zephyr/boards/nordic/nrf54l15dk'
+    qualifiers: 'nrf54l15/cpuapp'
+    revision: ''
+  images:
+   - name: 'LED_button_interrupt'
+     source-dir: 'C:/Repositories/nRF_practise/LED_button_interrupt'
+     type: 'MAIN'
+  kconfig:
+    files:
+     - 'C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/empty.conf'
+     - 'C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/empty.conf'
+    user-files:
+     - 'C:/Repositories/nRF_practise/LED_button_interrupt/build/_sysbuild/empty.conf'
+version: '0.1.0'
+west:
+  command: 'C:\ncs\toolchains\b8b84efebd\opt\bin\Scripts\west build --build-dir c:/Repositories/nRF_practise/LED_button_interrupt/build c:/Repositories/nRF_practise/LED_button_interrupt --pristine --board nrf54l15dk/nrf54l15/cpuapp'
+  topdir: 'c:\ncs\v3.1.0'
+  version: '1.4.0'

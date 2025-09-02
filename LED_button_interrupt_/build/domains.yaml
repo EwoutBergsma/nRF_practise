@@ -1,0 +1,7 @@
+default: LED_button_interrupt
+build_dir: C:/Repositories/nRF_practise/LED_button_interrupt/build
+domains:
+  - name: LED_button_interrupt
+    build_dir: C:/Repositories/nRF_practise/LED_button_interrupt/build/LED_button_interrupt
+flash_order:
+  - LED_button_interrupt
